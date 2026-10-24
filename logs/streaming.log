@@ -3,5 +3,6 @@ INFO MediaLive funcionando
 ERROR MediaLive sin señal
 WARNING Encoder con latencia alta
 ERROR SRT desconectado
-INFO MediaConnect recuperadoERROR Encoder desconectado
+INFO MediaConnect recuperado
+ERROR Encoder desconectado
 ERROR Encoder desconectado
