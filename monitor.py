@@ -25,6 +25,15 @@ def analizar_logs(nombre_archivo):
         print("Eventos analizados:", eventos)
         print("Errores:", errores)
         print("Advertencias:", advertencias)
+        
+        if errores == 0:
+            estado = "NORMAL"
+        elif errores <= 2:
+            estado = "REVISAR"
+        else:
+            estado = "ALERTA"
+
+        print("Estado del sistema:", estado)
 
     except FileNotFoundError:
         print("ERROR: no se encontró el archivo:", nombre_archivo)
