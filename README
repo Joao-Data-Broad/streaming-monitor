@@ -1,0 +1,13 @@
+# Streaming Monitor
+
+Proyecto de aprendizaje para desarrollar habilidades en:
+
+- Python
+- Linux
+- Git y GitHub
+- Análisis de logs
+- DevOps y AWS
+
+## Objetivo
+
+Crear una herramienta sencilla para analizar eventos de sistemas de streaming, identificar errores y generar un resumen de alertas.
